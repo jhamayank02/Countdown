@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="countdown.css">
+    <title>Countdown</title>
+</head>
+<body>
+    
+    <div class="myContainer">
+        <h1>Countdown</h1>
+        <div class="inputContainer">
+            <input type="text" class="form-control" name="inputBox" id="input" 
+            placeholder="e.g. Jun 6 2021 20:00:00 (24 hour format)">
+            <small>*Please enter the date and time in the correct specified format</small>
+        </div>
+            <div class="btn-container">
+                <button class="btn btn-primary" id="countdownSubmitBtn" type="submit" class="btn btn-primary my-2">Set Countdown</button>
+            <button class="btn btn-primary" id="resetBtn">Reset</button>
+            </div>
+            
+        <div class="countdownDisplay">
+            <span id="daysDisplay"></span>
+            <span id="hoursDisplay"></span>
+            <span id="minsDisplay"></span>
+            <span id="secsDisplay"></span>
+        </div>
+    </div>
+
+</body>
+<script src="countdown.js"></script>
+</html>

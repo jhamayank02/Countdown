@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    width: 24%;
+    margin: 50px auto;
+    font-size: 60px;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.myContainer{
+    margin-top: 150px;
+}
+
+.btn-container{
+    width: 25%;
+    margin: auto;
+}
+
+.inputContainer{
+    width: 50%;
+    margin: auto;
+    font-size: 30px;
+}
+
+input{
+    margin: 15px;
+    border-radius: 10px;
+    margin-bottom: 2px;
+
+}
+
+small{
+    margin: 15px;
+    margin-top: 2px;
+    color: red;
+    font-size: 20px;
+}
+
+#countdownSubmitBtn, #resetBtn{
+    margin: 15px;
+    margin: 15px;
+    background: none;
+    border: 5px solid black;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+
+#countdownSubmitBtn:hover, #resetBtn:hover{
+    color: white;
+    background: none;
+    border: 5px solid rgb(29, 6, 112);
+    border-radius: 10px;
+}
+
+.countdownDisplay{
+    width: 48%;
+    margin: auto;
+    font-size: 50px;
+}
+
+#daysDisplay{
+    color: red;
+}
+
+#hoursDisplay{
+    color: yellow;
+}
+
+#minsDisplay{
+    color: green;
+}
+
+#secsDisplay{
+    color: white;
+}
